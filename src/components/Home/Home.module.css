@@ -1,0 +1,36 @@
+.home_container{
+    /* border: 2px solid black; */
+    margin: 0 2vw;
+}
+
+.heading_container{
+  /* border: 2px solid red; */
+  height: 80px;
+}
+
+.heading_container h1{
+   margin:5px 0;
+}
+
+.heading_container p{
+   color: gray;
+}
+
+.cards_container{
+    /* border: 2px solid green; */
+    display: flex;
+    gap: 10px;
+}
+
+@media(max-width:320px){
+    .heading_container{
+        /* border: 2px solid red; */
+        height: 150px;
+      }
+      .cards_container{
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
