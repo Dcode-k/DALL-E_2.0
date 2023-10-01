@@ -23,7 +23,7 @@
     flex-wrap: wrap;
 }
 
-@media(max-width:320px){
+@media(max-width:768px){
     .heading_container{
         /* border: 2px solid red; */
         height: 150px;

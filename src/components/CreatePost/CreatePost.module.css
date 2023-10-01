@@ -30,7 +30,7 @@
 .image_container{
   /* border: 1px solid red; */
   position: relative;
-  width: 20vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,7 @@
 
 .previewImg{
     height: 100% ;
-    width: 100%;
+    width: 20vw;
     border: 2px solid grey;
     opacity: 0.5;
     border-radius: 10px;
@@ -49,6 +49,7 @@
     width: 100%;
     border: 2px solid grey;
     border-radius: 10px;
+    
 }
 
 .loader{
@@ -93,7 +94,7 @@
        cursor: pointer;
     }
 
-    @media(max-width:320px){
+    @media(max-width:768px){
         .createpost_container{
             padding: 0px 0vw;
         }

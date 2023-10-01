@@ -73,7 +73,7 @@
     color: white;
 }
 
-@media (max-width:320px){
+@media (max-width:768px){
     .card_container{
         position: relative;
         width: 100%;
