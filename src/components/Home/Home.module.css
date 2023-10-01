@@ -19,7 +19,8 @@
 .cards_container{
     /* border: 2px solid green; */
     display: flex;
-    gap: 10px;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 @media(max-width:320px){
